@@ -1,0 +1,209 @@
+
+body {
+	height: auto;
+	width: 960px;
+	background: #333;
+	color:white;
+}
+
+#root {
+	height: 1000px;
+	width: 100%;
+	position: absolute;
+	margin-left: 30px;
+	     perspective: 3000px;
+	 -ms-perspective: 3000px;
+	-moz-perspective: 3000px;
+	-webkit-perspective: 3000px;
+	perspective-origin: -200px 400px;
+}
+
+.cell {
+	border: solid #00f 1px;
+	position:absolute;
+	display: block;
+	margin:0;
+	padding: 0;
+	height:70px;
+	width:62px;
+	background: #aaa;
+	        transition:transform 1s;
+	    -ms-transition:transform 1s;
+	   -moz-transition:transform 1s;
+	-webkit-transition:transform 1s;
+}
+.element {
+	border: solid #0ff 2px;
+	position:absolute;
+	display: block;
+	margin:0;
+	padding: 0;
+	height:70px;
+	width:62px;
+	background: #fff;
+	        transition:transform 1s;
+	    -ms-transition:transform 1s;
+	   -moz-transition:transform 1s;
+	-webkit-transition:transform 1s;
+}
+
+.eNo {
+	color: gold;
+	font-size: 1.6em;
+	text-align: center;
+}
+
+.name {
+	color: #000;
+	font-size: 0.4em;
+	margin: 0;
+	text-align: center;
+	text-shadow: none;
+}
+.jName {
+	color: #00f;
+	font-size: 0.25em;
+	margin: 0;
+	text-align: center;
+	text-shadow: none;
+}
+.aNo {
+	color: #00f;
+	font-size: 0.5em;
+	font-weight: bold;
+	margin: 0;
+	text-align: left;
+	text-shadow: none;
+}
+.symbol {
+	color:darkblue;
+	font-size: 1.2em;
+	margin: 0;
+	position: absolute;
+	text-align: center;
+	top:55%;
+	left: 45%;
+}
+
+.alkaliMetal {
+	background: #F0A899;
+}
+
+.alkalineEarth {
+	background: #E8E46B;
+}
+
+.transMetal {
+	background: #F5ABF0;
+}
+
+.postTrans {
+	background: #BFF5E7;
+}
+
+.metaloid {
+	background: #45C23E;
+}
+
+.otherNonMetal {
+	background: #66DE5F;
+}
+
+.halogen {
+	background: #A2DEF2;
+}
+
+.noble {
+	background: #C4CACC;
+}
+
+.ranthanoid {
+	background: #F5A7A2;
+}
+
+.actinoid {
+	background: #ABB1DE;
+}
+
+form {
+	color:#000;
+}
+
+#largeElement {
+	color:gold;
+	font-size: 2.5em;
+	opacity: 1;
+	position:absolute;
+	top:30px;
+	left:150px;
+	height:200px;
+	width: 160px;
+}
+#largeElement .aNo {
+	font-size: 0.8em;
+	padding-left: 10px;
+}
+#largeElement .name {
+	font-size: 0.6em;
+}
+#largeElement .jName {
+	font-size: 0.6em;
+}
+
+#pointBoard {
+	background: #ccc;
+	font-size: 2.5em;
+	opacity: 0;
+	position:absolute;
+	top:0px;
+	left:550px;
+	height:75px;
+	width: 150px;
+}
+
+.hit {
+	font-size: 0.7em;
+	color:#333;
+	text-align: right;	
+
+}
+
+.missed {
+	font-size: 0.7em;
+	color:red;
+	text-align: right;	
+}
+
+.pointTitle {
+	font-size: 0.7em;
+	color:blue;
+	text-align: left;
+	width: 100px;	
+}
+
+#gameRule {
+	color:#000;
+	background: #999;
+}
+
+#gameOver {
+	color:#000;
+	background: #f00;
+}
+#gameOver h1 {
+	color: #f00;
+	text-align: center;
+}
+#gameComplete {
+	color:#000;
+	background: gold;
+}
+#gameComplete h1 {
+	color: #f00;
+	text-align: center;
+}
+
+#code-container {
+	position: absolute;
+	top:800px;
+}
