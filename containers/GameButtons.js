@@ -23,7 +23,18 @@ let GameButtons = ({ dispatch, elements, gameButtons }) => {
   return (
     <div>
      <Row>
-      <Col xsOffset={7}>
+      <Col mdOffset={6}>
+        
+        <Button
+          bsStyle="info"
+          onClick={e => {
+            e.preventDefault()
+            dispatch(showGameRule())
+          }}
+        >
+          ｹﾞｰﾑ・ﾙｰﾙ
+        </Button>
+
         <Button
           bsStyle="primary"
           onClick={e => {
@@ -44,15 +55,6 @@ let GameButtons = ({ dispatch, elements, gameButtons }) => {
           ゲーム リセット 
         </Button>
 
-        <Button
-          bsStyle="info"
-          onClick={e => {
-            e.preventDefault()
-            dispatch(showGameRule())
-          }}
-        >
-          ゲーム・ルール
-        </Button>
       </Col>
     </Row>
     <Row>

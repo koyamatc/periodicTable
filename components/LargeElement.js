@@ -56,6 +56,5 @@ let symbolPos  = (symbolText) =>{
                break;
    };
 };
-
  
 export default LargeElement

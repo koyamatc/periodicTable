@@ -4,6 +4,7 @@ body {
 	width: 960px;
 	background: #333;
 	color:white;
+	position: relative;
 }
 
 #root {
@@ -134,7 +135,7 @@ form {
 	font-size: 2.5em;
 	opacity: 1;
 	position:absolute;
-	top:30px;
+	top:40px;
 	left:150px;
 	height:200px;
 	width: 160px;
@@ -203,6 +204,11 @@ form {
 	text-align: center;
 }
 
+#footer {
+	position: absolute;
+	top:850px;
+	font-size: 1.2em;
+}
 #code-container {
 	position: absolute;
 	top:800px;

@@ -4,6 +4,7 @@ import PointBoard from '../containers/PointBoard'
 import VisibleLargeElement from '../containers/VisibleLargeElement'
 import CellTable from '../containers/CellTable'
 import ElementTable from '../containers/ElementTable'
+import Footer from './Footer'
 
 const App = () => (
   <div>  
@@ -12,7 +13,8 @@ const App = () => (
     <VisibleLargeElement />
     <CellTable />
     <ElementTable />
-  </div>  
+    <Footer />
+  </div> 
 )
 
 export default App

@@ -6,19 +6,8 @@ const mapStateToProps = (state) => {
   return state
 }
 
-const mapDispatchToProps = (dispatch) => {
-  return {
-/*
-    onTodoClick: (id) => {
-      dispatch(toggleTodo(id))
-    }
- */
-  }
-}
-
 const PointBoard = connect(
-  mapStateToProps,
-  mapDispatchToProps
+  mapStateToProps
 )(Points)
 
 export default PointBoard
