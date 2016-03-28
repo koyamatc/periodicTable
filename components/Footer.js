@@ -4,11 +4,14 @@ const Footer = () => (
 
   <div className="row" id="footer">
     <p>React Redux jQuery で周期表を作成してみました。</p>
-    <p>Reduxは　
+    <p>Reduxは　Redux サイトの 
       <a href="http://redux.js.org/docs/basics/ExampleTodoList.html">
-        Redux サイト Basics Example Todo List
+        Basics Example Todo List
       </a>
       を参考に作成してみました。
+      <a href="https://github.com/koyamatc/periodicTable">
+        GitHub:koyamatc/periodicTable
+      </a>
     </p>
  </div>
 

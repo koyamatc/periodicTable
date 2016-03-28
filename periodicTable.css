@@ -7,6 +7,13 @@ body {
 	position: relative;
 }
 
+a {
+	color: gold;
+}
+a:hover {
+	color:lime;
+}
+
 #root {
 	height: 1000px;
 	width: 100%;
@@ -207,7 +214,7 @@ form {
 #footer {
 	position: absolute;
 	top:850px;
-	font-size: 1.2em;
+	font-size: 1.5em;
 }
 #code-container {
 	position: absolute;
