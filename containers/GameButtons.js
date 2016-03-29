@@ -23,7 +23,7 @@ let GameButtons = ({ dispatch, elements, gameButtons }) => {
   return (
     <div>
      <Row>
-      <Col mdOffset={6}>
+      <Col xsOffset={7}>
         
         <Button
           bsStyle="info"
